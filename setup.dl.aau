@@ -1,0 +1,9 @@
+import fsys;
+ 
+fsys.copy("/wiz", "~/lib/");
+
+import ide;
+ide.refreshStdLib();
+
+import win;
+win.msgboxTimeout("wiz扩展库已安装成功", "快手(AAuto Quicker) - wiz扩展库安装程序", 1000);

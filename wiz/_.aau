@@ -1,0 +1,12 @@
+
+namespace wiz;
+import ..wiz.explorerApp;
+import ..wiz.database;
+
+/**intellisense()
+wiz = wiz扩展库
+wiz.explorerApp = WIZ应用程序
+wiz.database = wiz数据库
+end intellisense**/
+
+
