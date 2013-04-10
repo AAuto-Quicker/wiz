@@ -14,10 +14,10 @@ namespace database {
   _metaProperty = ..util.metaProperty( 
 	  
 		get = function(k){
-			return owner._objApp[k]
+			return owner._objDatabase[k]
 		};
 		set = function(k,v){
-			owner._objApp[k] = v;
+			owner._objDatabase[k] = v;
 		};
 	)
 }
