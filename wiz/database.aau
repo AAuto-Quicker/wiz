@@ -4,7 +4,7 @@ namespace wiz;
 
 class database{
 	ctor( /*输入构造函数所需要的参数*/ ){
-		this._objDatabase = ..com.CreateObject("Wiz.WizExplorerApp.1")
+		this._objDatabase = ..com.CreateObject("WizKMCore.WizDatabase")
 	};
 	@_metaProperty;
 }
